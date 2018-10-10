@@ -1,0 +1,346 @@
+.lg-icon {
+  font-size: 18px;
+  line-height: 1.33;
+}
+
+.align-center {
+  text-align: center;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  /* Negative indent footer by it's height */
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+  height: 40px;
+}
+#footer {
+  background-color: #f5f5f5;
+  height: 40px;
+  text-align:center;
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
+}
+
+#footer p {
+  padding: 0;
+  padding-top: 10px;
+  margin: 0;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+  #footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.panel-login {
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 400px;
+}
+
+body {
+  background-color: #eee;
+}
+
+@media (max-width: 767px){
+  body {
+    padding-top: 0px !important;
+  }
+}
+
+.form-signin {
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+  font-size: 14px;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-signin .form-group {
+  margin-bottom: 0px;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+    -webkit-text-fill-color: #333;
+    -webkit-transition: border-color ease-in-out .15s;
+}
+
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+    -webkit-text-fill-color: #333;
+    -webkit-transition: border-color ease-in-out .15s;
+}
+
+.panel-footer.alert {
+  margin-bottom: 0px;
+  padding: 10px 15px;
+  border-top: 1px solid #ddd;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.panel-footer.alert.alert-danger {
+  color: #a94442;
+  background-color: #f2dede;
+}
+
+.alert {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+body {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.main .page-header {
+  margin-top: 0;
+}
+
+.navbar {
+  border: none;
+}
+
+.main {
+  padding: 40px;
+  padding-right: 40px;
+}
+
+.breadcrumb > li + li:before {
+  padding: 0 5px;
+  color: #ccc;
+  content: "/\00a0";
+}
+
+.lg-icon {
+  font-size: 18px;
+  line-height: 1.33;
+}
+
+.table-middle td {
+  vertical-align: middle !important;
+}
+/* Sticky footer styles
+-------------------------------------------------- */
+.dataTables_paginate .pagination {
+  margin: 0;
+  padding: 0;
+} 
+
+.dataTable.table.no-footer {
+  border-bottom: none;
+  width: 100% !important;
+}
+
+table.dataTable thead > tr > th {
+  padding: 6px 10px;
+}
+
+.select2-container.form-control {
+  padding: 0px 0px 0px 0px;
+  border: none;
+}
+
+.select2-container-multi.form-control {
+  height: 40px; 
+}
+
+.select2-container .select2-choice {
+  width: 100%;
+}
+
+.select2-container-multi .select2-choices {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.select2-drop {
+  margin-top: -30px;
+}
+
+.select2-drop.select2-drop-multi {
+  margin-top: -1px;
+}
+
+.select2-results {
+  width: auto; 
+}
+
+.select2-results .select2-highlighted {
+  background: #2196f3;
+}
+
+.select2-drop-active {
+  border: 1px solid #2598f9;
+  margin-top: -33px;
+  padding-top: 3px;
+}
+
+.table.dataTable tr td {
+  vertical-align: middle !important;
+}
+
+.table.dataTable.table-corespondenta tr td {
+  border: 1px solid #b99;
+}
+
+.table.dataTable tr td.largeIcons .glyphicon {
+  font-size: 24px;
+}
+
+.table.dataTable.table-striped > tbody > tr.intrare:nth-child(odd) > td {
+  background-color: #E1FCE1;
+}
+
+.table.dataTable.table-striped > tbody > tr.intrare:nth-child(even) > td {
+  background-color: #CCFFCC;
+}
+
+.table.dataTable.table-striped > tbody > tr.iesire:nth-child(odd) > td {
+  background-color: #D3E8FC;
+}
+
+.table.dataTable.table-striped > tbody > tr.iesire:nth-child(even) > td {
+  background-color: #D3E8FC;
+}
+
+.table.dataTable.table-striped > tbody > tr.iesire-pending > td {
+  background-color: #FFDBDB;
+}
+
+.table.dataTable.table-striped > tbody > tr.iesire-oficiu > td {
+  background-color: #A9D0F5;
+}
+
+.panel-default > .panel-heading {
+  padding: 6px 15px;
+}
+
+.glyphicon-danger {
+  color: #a94442;
+}
+
+.glyphicon-success {
+  color: #3c763d;
+}
+
+.glyphicon-large {
+  font-size: 18px;
+}
+
+table.dataTable {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.form-input-wrapper {
+  display: table-row;
+  width: 100%;
+}
+
+.form-input-container {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.form-input-icons {
+  display: table-cell;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 1%;
+  padding-left: 5px;
+}
+
+.form-input-icons a, .form-input-icons a span {
+  vertical-align: top;
+}
+
+.form-input-icons a span.glyphicon {
+  font-size: 26px; 
+  margin-top: 3px;
+  margin-left: 5px;
+}
+
+.form-input-icons a span.glyphicon.glyphicon-repeat, .form-input-icons a span.glyphicon.glyphicon-refresh, .form-input-icons a span.glyphicon.glyphicon-paperclip {
+  font-size: 22px; 
+  margin-top: 4px;
+}
+
+.radio, .checkbox {
+  margin-left: 20px;
+}
+
+#accessRightsElements label{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+#accessRightsElements .checkbox{
+  margin-left: 40px;
+  font-weight: normal;
+}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+}
+
+.page-header {
+  margin-top: 20px !important;
+  text-shadow: 1px 1px 3px #428bca;
+}

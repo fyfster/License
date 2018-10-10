@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+      <user phone="0712345678" 
+            cnp="1912345678912" 
+            region="Brasov" 
+            city="Brasov" 
+            streetName="galaxiei" 
+            streetNumber="3" 
+            apartment="30" 
+            name="Test modifica cont" 
+            email="visean.razvan@yahoo.com">
+      </user>
